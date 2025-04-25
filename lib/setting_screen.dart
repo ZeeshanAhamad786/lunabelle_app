@@ -58,7 +58,7 @@ class _SettingScreenState extends State<SettingScreen> {
                       ),
                       getVerticalSpace( 1.h),
                       Text(
-                        "Mohsin",
+                        "Lunabella",
                         style: TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 18.px,
@@ -129,56 +129,7 @@ class _SettingScreenState extends State<SettingScreen> {
                   ),
                 ),
               ),
-              getVerticalSpace(1.5.h),
-              GestureDetector(
-                onTap: (){
-                  // Get.to(() => NewsScreen());
-                },
-                child: Container(
-                  height: 5.5.h,
-                  width: MediaQuery.of(context).size.width,
-                  decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(8.px),
-                      boxShadow: [
-                        BoxShadow(
-                            blurRadius: 1,
-                            offset: Offset(0, 0.1),
-                            spreadRadius: 1,
-                            color: Colors.grey,
-                        )
-                      ]
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Row(
-                        children: [
-                          Padding(
-                            padding: EdgeInsets.only(left: 3.w,),
-                            child: SvgPicture.asset(
-                              "assets/svg/news_icon.svg",
-                            ),
-                          ),
-                          getHorizontalSpace( 3.w),
-                          Text(
-                            'News',
-                            style: TextStyle(
-                                fontSize: 14.px,
-                                fontWeight: FontWeight.w400
-                            ),
-                            //  style: AppTextStyles.regularBody,
-                          ),
-                        ],
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(right: 2.w),
-                        child: Icon(Icons.arrow_forward_ios_rounded, size: 2.5.h),
-                      )
-                    ],
-                  ),
-                ),
-              ),
+
             ],
           ),
         ),
